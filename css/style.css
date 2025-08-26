@@ -1,0 +1,62 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.nav-box {
+    border: 2px solid #989898;
+    border-radius: 12px;
+    padding: 10px 32px;
+    margin: 0 8px;
+    background: rgb(103, 103, 103);
+    font-size: 1.1rem;
+}
+
+.nav-box:hover, .nav-boxactive {
+    background: #474646;
+    color: #fff;
+}
+
+.hero {
+    background: linear-gradient(135deg, #191a1a, #5e5d5d);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cursor {
+    display: inline-block;
+    color: #b9b9bd;
+    animation: blink 1s infinite;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.portfolio-card {
+    transition: transform 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #eaefef;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn-custom {
+    background-color: #5e5d5d;
+    color: #fff;
+    border: none;
+}
+.btn-custom {
+    background-color: #5e5d5d;
+    color: #fff;
+    border: none;
+}
